@@ -11,6 +11,14 @@
 		D03240E72C0A5E050035C292 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03240E62C0A5E050035C292 /* ContentView.swift */; };
 		D03240E92C0A5E070035C292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03240E82C0A5E070035C292 /* Assets.xcassets */; };
 		D03240EC2C0A5E070035C292 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03240EB2C0A5E070035C292 /* Preview Assets.xcassets */; };
+		D03240F82C0A6F200035C292 /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03240F72C0A6F200035C292 /* Modelo.swift */; };
+		D03240FA2C0A6F2E0035C292 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03240F92C0A6F2E0035C292 /* ApiClient.swift */; };
+		D03240FE2C0A6FA90035C292 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03240FD2C0A6FA90035C292 /* LoginView.swift */; };
+		D03241002C0A6FBE0035C292 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03240FF2C0A6FBE0035C292 /* LoginViewModel.swift */; };
+		D03241022C0A6FF10035C292 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03241012C0A6FF10035C292 /* RegisterView.swift */; };
+		D03241042C0A70090035C292 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03241032C0A70090035C292 /* RegisterViewModel.swift */; };
+		D03241062C0A74D00035C292 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03241052C0A74D00035C292 /* WelcomeView.swift */; };
+		D03241082C0A74E30035C292 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03241072C0A74E30035C292 /* WelcomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		D03240E62C0A5E050035C292 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D03240E82C0A5E070035C292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D03240EB2C0A5E070035C292 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D03240F72C0A6F200035C292 /* Modelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
+		D03240F92C0A6F2E0035C292 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		D03240FD2C0A6FA90035C292 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D03240FF2C0A6FBE0035C292 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D03241012C0A6FF10035C292 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		D03241032C0A70090035C292 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		D03241052C0A74D00035C292 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		D03241072C0A74E30035C292 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,9 @@
 		D03240E32C0A5E050035C292 /* TravelMate */ = {
 			isa = PBXGroup;
 			children = (
+				D03240F62C0A6EF00035C292 /* Moduls */,
+				D03240F52C0A6EE50035C292 /* Network */,
+				D03240F42C0A6ECB0035C292 /* Model */,
 				D03240E42C0A5E050035C292 /* TravelMateApp.swift */,
 				D03240E62C0A5E050035C292 /* ContentView.swift */,
 				D03240E82C0A5E070035C292 /* Assets.xcassets */,
@@ -65,6 +84,35 @@
 				D03240EB2C0A5E070035C292 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D03240F42C0A6ECB0035C292 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D03240F72C0A6F200035C292 /* Modelo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D03240F52C0A6EE50035C292 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D03240F92C0A6F2E0035C292 /* ApiClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D03240F62C0A6EF00035C292 /* Moduls */ = {
+			isa = PBXGroup;
+			children = (
+				D03240FD2C0A6FA90035C292 /* LoginView.swift */,
+				D03240FF2C0A6FBE0035C292 /* LoginViewModel.swift */,
+				D03241012C0A6FF10035C292 /* RegisterView.swift */,
+				D03241032C0A70090035C292 /* RegisterViewModel.swift */,
+				D03241052C0A74D00035C292 /* WelcomeView.swift */,
+				D03241072C0A74E30035C292 /* WelcomeViewModel.swift */,
+			);
+			path = Moduls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D03240F82C0A6F200035C292 /* Modelo.swift in Sources */,
+				D03241082C0A74E30035C292 /* WelcomeViewModel.swift in Sources */,
 				D03240E72C0A5E050035C292 /* ContentView.swift in Sources */,
+				D03241002C0A6FBE0035C292 /* LoginViewModel.swift in Sources */,
+				D03241042C0A70090035C292 /* RegisterViewModel.swift in Sources */,
+				D03241062C0A74D00035C292 /* WelcomeView.swift in Sources */,
+				D03241022C0A6FF10035C292 /* RegisterView.swift in Sources */,
 				D03240E52C0A5E050035C292 /* TravelMateApp.swift in Sources */,
+				D03240FE2C0A6FA90035C292 /* LoginView.swift in Sources */,
+				D03240FA2C0A6F2E0035C292 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
