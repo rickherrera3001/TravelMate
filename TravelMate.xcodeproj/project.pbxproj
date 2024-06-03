@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D015A2B82C0E4019009614E6 /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = D015A2B72C0E4019009614E6 /* GoogleService-Info-3.plist */; };
+		D015A2B82C0E4019009614E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D015A2B72C0E4019009614E6 /* GoogleService-Info.plist */; };
 		D0193FEC2C0AF68300DB4066 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D0193FEB2C0AF68300DB4066 /* FirebaseAuth */; };
 		D0193FEE2C0AF68300DB4066 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D0193FED2C0AF68300DB4066 /* FirebaseFirestore */; };
 		D0193FF02C0AF68300DB4066 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D0193FEF2C0AF68300DB4066 /* FirebaseFirestoreSwift */; };
@@ -29,7 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D015A2B72C0E4019009614E6 /* GoogleService-Info-3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-3.plist"; sourceTree = "<group>"; };
+		D015A2B72C0E4019009614E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D0193FF32C0AF77E00DB4066 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		D0193FF52C0AF91100DB4066 /* ForgotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotView.swift; sourceTree = "<group>"; };
 		D03240E12C0A5E050035C292 /* TravelMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +65,7 @@
 		D03240D82C0A5E050035C292 = {
 			isa = PBXGroup;
 			children = (
-				D015A2B72C0E4019009614E6 /* GoogleService-Info-3.plist */,
+				D015A2B72C0E4019009614E6 /* GoogleService-Info.plist */,
 				D03240E32C0A5E050035C292 /* TravelMate */,
 				D03240E22C0A5E050035C292 /* Products */,
 			);
@@ -200,7 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D03240EC2C0A5E070035C292 /* Preview Assets.xcassets in Resources */,
-				D015A2B82C0E4019009614E6 /* GoogleService-Info-3.plist in Resources */,
+				D015A2B82C0E4019009614E6 /* GoogleService-Info.plist in Resources */,
 				D03240E92C0A5E070035C292 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

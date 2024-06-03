@@ -24,7 +24,7 @@ struct RegisterView: View {
                             .font(.system(size: 60, weight: .bold))
                             .foregroundColor(.white)
                         
-                        Text("Start watching movies")
+                        Text("Start looking for destinations")
                             .font(.system(size: 20, weight: .bold))
                             .foregroundColor(.white)
                     }
