@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D015A2B82C0E4019009614E6 /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = D015A2B72C0E4019009614E6 /* GoogleService-Info-3.plist */; };
+		D0193FEC2C0AF68300DB4066 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D0193FEB2C0AF68300DB4066 /* FirebaseAuth */; };
+		D0193FEE2C0AF68300DB4066 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D0193FED2C0AF68300DB4066 /* FirebaseFirestore */; };
+		D0193FF02C0AF68300DB4066 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D0193FEF2C0AF68300DB4066 /* FirebaseFirestoreSwift */; };
+		D0193FF22C0AF68300DB4066 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D0193FF12C0AF68300DB4066 /* FirebaseStorage */; };
+		D0193FF42C0AF77E00DB4066 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0193FF32C0AF77E00DB4066 /* UserModel.swift */; };
+		D0193FF62C0AF91100DB4066 /* ForgotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0193FF52C0AF91100DB4066 /* ForgotView.swift */; };
 		D03240E52C0A5E050035C292 /* TravelMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03240E42C0A5E050035C292 /* TravelMateApp.swift */; };
 		D03240E72C0A5E050035C292 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03240E62C0A5E050035C292 /* ContentView.swift */; };
 		D03240E92C0A5E070035C292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03240E82C0A5E070035C292 /* Assets.xcassets */; };
@@ -14,14 +21,17 @@
 		D03240F82C0A6F200035C292 /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03240F72C0A6F200035C292 /* Modelo.swift */; };
 		D03240FA2C0A6F2E0035C292 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03240F92C0A6F2E0035C292 /* ApiClient.swift */; };
 		D03240FE2C0A6FA90035C292 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03240FD2C0A6FA90035C292 /* LoginView.swift */; };
-		D03241002C0A6FBE0035C292 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03240FF2C0A6FBE0035C292 /* LoginViewModel.swift */; };
+		D03241002C0A6FBE0035C292 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03240FF2C0A6FBE0035C292 /* LoginViewViewModel.swift */; };
 		D03241022C0A6FF10035C292 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03241012C0A6FF10035C292 /* RegisterView.swift */; };
-		D03241042C0A70090035C292 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03241032C0A70090035C292 /* RegisterViewModel.swift */; };
-		D03241062C0A74D00035C292 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03241052C0A74D00035C292 /* WelcomeView.swift */; };
-		D03241082C0A74E30035C292 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03241072C0A74E30035C292 /* WelcomeViewModel.swift */; };
+		D03241062C0A74D00035C292 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03241052C0A74D00035C292 /* HomeView.swift */; };
+		D03241082C0A74E30035C292 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03241072C0A74E30035C292 /* HomeViewModel.swift */; };
+		D032410A2C0A90200035C292 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03241092C0A90200035C292 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D015A2B72C0E4019009614E6 /* GoogleService-Info-3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-3.plist"; sourceTree = "<group>"; };
+		D0193FF32C0AF77E00DB4066 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		D0193FF52C0AF91100DB4066 /* ForgotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotView.swift; sourceTree = "<group>"; };
 		D03240E12C0A5E050035C292 /* TravelMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03240E42C0A5E050035C292 /* TravelMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelMateApp.swift; sourceTree = "<group>"; };
 		D03240E62C0A5E050035C292 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,11 +40,11 @@
 		D03240F72C0A6F200035C292 /* Modelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
 		D03240F92C0A6F2E0035C292 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		D03240FD2C0A6FA90035C292 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		D03240FF2C0A6FBE0035C292 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D03240FF2C0A6FBE0035C292 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		D03241012C0A6FF10035C292 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
-		D03241032C0A70090035C292 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
-		D03241052C0A74D00035C292 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
-		D03241072C0A74E30035C292 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		D03241052C0A74D00035C292 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D03241072C0A74E30035C292 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D03241092C0A90200035C292 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0193FEC2C0AF68300DB4066 /* FirebaseAuth in Frameworks */,
+				D0193FF22C0AF68300DB4066 /* FirebaseStorage in Frameworks */,
+				D0193FEE2C0AF68300DB4066 /* FirebaseFirestore in Frameworks */,
+				D0193FF02C0AF68300DB4066 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +65,7 @@
 		D03240D82C0A5E050035C292 = {
 			isa = PBXGroup;
 			children = (
+				D015A2B72C0E4019009614E6 /* GoogleService-Info-3.plist */,
 				D03240E32C0A5E050035C292 /* TravelMate */,
 				D03240E22C0A5E050035C292 /* Products */,
 			);
@@ -90,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				D03240F72C0A6F200035C292 /* Modelo.swift */,
+				D0193FF32C0AF77E00DB4066 /* UserModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -105,12 +121,13 @@
 		D03240F62C0A6EF00035C292 /* Moduls */ = {
 			isa = PBXGroup;
 			children = (
+				D03240FF2C0A6FBE0035C292 /* LoginViewViewModel.swift */,
 				D03240FD2C0A6FA90035C292 /* LoginView.swift */,
-				D03240FF2C0A6FBE0035C292 /* LoginViewModel.swift */,
 				D03241012C0A6FF10035C292 /* RegisterView.swift */,
-				D03241032C0A70090035C292 /* RegisterViewModel.swift */,
-				D03241052C0A74D00035C292 /* WelcomeView.swift */,
-				D03241072C0A74E30035C292 /* WelcomeViewModel.swift */,
+				D0193FF52C0AF91100DB4066 /* ForgotView.swift */,
+				D03241052C0A74D00035C292 /* HomeView.swift */,
+				D03241072C0A74E30035C292 /* HomeViewModel.swift */,
+				D03241092C0A90200035C292 /* SplashScreenView.swift */,
 			);
 			path = Moduls;
 			sourceTree = "<group>";
@@ -131,6 +148,12 @@
 			dependencies = (
 			);
 			name = TravelMate;
+			packageProductDependencies = (
+				D0193FEB2C0AF68300DB4066 /* FirebaseAuth */,
+				D0193FED2C0AF68300DB4066 /* FirebaseFirestore */,
+				D0193FEF2C0AF68300DB4066 /* FirebaseFirestoreSwift */,
+				D0193FF12C0AF68300DB4066 /* FirebaseStorage */,
+			);
 			productName = TravelMate;
 			productReference = D03240E12C0A5E050035C292 /* TravelMate.app */;
 			productType = "com.apple.product-type.application";
@@ -159,6 +182,9 @@
 				Base,
 			);
 			mainGroup = D03240D82C0A5E050035C292;
+			packageReferences = (
+				D0193FEA2C0AF68300DB4066 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = D03240E22C0A5E050035C292 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -174,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D03240EC2C0A5E070035C292 /* Preview Assets.xcassets in Resources */,
+				D015A2B82C0E4019009614E6 /* GoogleService-Info-3.plist in Resources */,
 				D03240E92C0A5E070035C292 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,15 +213,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D03240F82C0A6F200035C292 /* Modelo.swift in Sources */,
-				D03241082C0A74E30035C292 /* WelcomeViewModel.swift in Sources */,
+				D03241082C0A74E30035C292 /* HomeViewModel.swift in Sources */,
 				D03240E72C0A5E050035C292 /* ContentView.swift in Sources */,
-				D03241002C0A6FBE0035C292 /* LoginViewModel.swift in Sources */,
-				D03241042C0A70090035C292 /* RegisterViewModel.swift in Sources */,
-				D03241062C0A74D00035C292 /* WelcomeView.swift in Sources */,
+				D03241002C0A6FBE0035C292 /* LoginViewViewModel.swift in Sources */,
+				D032410A2C0A90200035C292 /* SplashScreenView.swift in Sources */,
+				D03241062C0A74D00035C292 /* HomeView.swift in Sources */,
 				D03241022C0A6FF10035C292 /* RegisterView.swift in Sources */,
 				D03240E52C0A5E050035C292 /* TravelMateApp.swift in Sources */,
 				D03240FE2C0A6FA90035C292 /* LoginView.swift in Sources */,
+				D0193FF42C0AF77E00DB4066 /* UserModel.swift in Sources */,
 				D03240FA2C0A6F2E0035C292 /* ApiClient.swift in Sources */,
+				D0193FF62C0AF91100DB4066 /* ForgotView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +429,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D0193FEA2C0AF68300DB4066 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D0193FEB2C0AF68300DB4066 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0193FEA2C0AF68300DB4066 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D0193FED2C0AF68300DB4066 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0193FEA2C0AF68300DB4066 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D0193FEF2C0AF68300DB4066 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0193FEA2C0AF68300DB4066 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		D0193FF12C0AF68300DB4066 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0193FEA2C0AF68300DB4066 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D03240D92C0A5E050035C292 /* Project object */;
 }

@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
 @main
 struct TravelMateApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
