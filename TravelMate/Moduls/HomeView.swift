@@ -8,37 +8,38 @@
 import SwiftUI
 
 struct HomeView: View {
-    
+    @State var selectedTab: Int = 2
     var body: some View {
         NavigationView {
             ZStack {
                 
-                TabView {
+                TabView(selection: $selectedTab) {
+                    
                     
                     ExploreView()
                         .tabItem {
                             Label("Explorar", systemImage: "magnifyingglass")
-                        }
+                        }.tag(0)
                     
                     PlanTripView()
                         .tabItem {
                             Label("Planificar", systemImage: "calendar")
-                        }
+                        }.tag(1)
                     
                     ItineraryView()
                         .tabItem {
                             Label("Itinerario", systemImage: "list.bullet")
-                        }
+                        }.tag(2)
                     
-                    ProfileView()
+                    ProfileView(viewModel: SaveData())
                         .tabItem {
                             Label("Perfil", systemImage: "person")
-                        }
+                        }.tag(3)
                     
                     CommunityView()
                         .tabItem {
                             Label("Comunidad", systemImage: "person.3")
-                        }
+                        }.tag(4)
                 }
                 .accentColor(.blue)
             }
@@ -102,46 +103,8 @@ struct HomeView: View {
             }
         }
     }
-    struct PlanTripView: View {
-        var body: some View {
-            NavigationView {
-                Text("Planificar Viaje")
-                    .navigationTitle("Planificar")
-            }
-        }
-    }
-    
-    struct ItineraryView: View {
-        var body: some View {
-            NavigationView {
-                Text("Itinerario del Viaje")
-                    .navigationTitle("Itinerario")
-            }
-        }
-    }
-    
-    struct ProfileView: View {
-        var body: some View {
-            NavigationView {
-                Text("Perfil del Usuario")
-                    .navigationTitle("Perfil")
-            }
-        }
-    }
-    
-    struct CommunityView: View {
-        var body: some View {
-            NavigationView {
-                Text("Comunidad")
-                    .navigationTitle("Comunidad")
-            }
-        }
-    }
 }
-
-
 
 #Preview{
     HomeView()
 }
-
