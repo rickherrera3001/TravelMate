@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D015A2B82C0E4019009614E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D015A2B72C0E4019009614E6 /* GoogleService-Info.plist */; };
+		D015A2BA2C0ED429009614E6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015A2B92C0ED429009614E6 /* ProfileView.swift */; };
+		D015A2BC2C0ED438009614E6 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015A2BB2C0ED438009614E6 /* ProfileViewModel.swift */; };
 		D0193FEC2C0AF68300DB4066 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D0193FEB2C0AF68300DB4066 /* FirebaseAuth */; };
 		D0193FEE2C0AF68300DB4066 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D0193FED2C0AF68300DB4066 /* FirebaseFirestore */; };
 		D0193FF02C0AF68300DB4066 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D0193FEF2C0AF68300DB4066 /* FirebaseFirestoreSwift */; };
@@ -30,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		D015A2B72C0E4019009614E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D015A2B92C0ED429009614E6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D015A2BB2C0ED438009614E6 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		D0193FF32C0AF77E00DB4066 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		D0193FF52C0AF91100DB4066 /* ForgotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotView.swift; sourceTree = "<group>"; };
 		D03240E12C0A5E050035C292 /* TravelMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +132,8 @@
 				D03241052C0A74D00035C292 /* HomeView.swift */,
 				D03241072C0A74E30035C292 /* HomeViewModel.swift */,
 				D03241092C0A90200035C292 /* SplashScreenView.swift */,
+				D015A2B92C0ED429009614E6 /* ProfileView.swift */,
+				D015A2BB2C0ED438009614E6 /* ProfileViewModel.swift */,
 			);
 			path = Moduls;
 			sourceTree = "<group>";
@@ -213,10 +219,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D03240F82C0A6F200035C292 /* Modelo.swift in Sources */,
+				D015A2BA2C0ED429009614E6 /* ProfileView.swift in Sources */,
 				D03241082C0A74E30035C292 /* HomeViewModel.swift in Sources */,
 				D03240E72C0A5E050035C292 /* ContentView.swift in Sources */,
 				D03241002C0A6FBE0035C292 /* LoginViewViewModel.swift in Sources */,
 				D032410A2C0A90200035C292 /* SplashScreenView.swift in Sources */,
+				D015A2BC2C0ED438009614E6 /* ProfileViewModel.swift in Sources */,
 				D03241062C0A74D00035C292 /* HomeView.swift in Sources */,
 				D03241022C0A6FF10035C292 /* RegisterView.swift in Sources */,
 				D03240E52C0A5E050035C292 /* TravelMateApp.swift in Sources */,

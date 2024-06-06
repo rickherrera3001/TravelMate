@@ -24,7 +24,7 @@ import SwiftUI
                                     Image("logoTravelMate")
                                                                   .resizable()
                                                                   .aspectRatio(contentMode: .fit)
-                                                                  .frame(width: 110)
+                                                                  .frame(width: 250)
                                                                   .padding(.bottom, 60.0)
                                                                   .padding(.top, 50)
                                 }
