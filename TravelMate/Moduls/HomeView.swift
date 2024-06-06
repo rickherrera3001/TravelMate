@@ -86,6 +86,14 @@ struct HomeView: View {
                             )
                             .padding(.bottom, 20)
                         
+                        ScrollView {
+                            Image(systemName: "play.circle.fill")
+                                .resizable()
+                                .foregroundColor(.white)
+                                .frame(width: 42.0, height: 42.0)
+                                .padding(.horizontal, 30)
+                            
+                        }
                         
                         Spacer()
                         
