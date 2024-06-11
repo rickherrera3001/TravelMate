@@ -6,7 +6,8 @@
 //
 
 import Foundation
-import UIKit
+
+import SwiftUI
 
 class SaveData: ObservableObject {
     var correo:String = ""

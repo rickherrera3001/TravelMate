@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ProfileView: View {
     @ObservedObject var viewModel: SaveData
-    @State var nombreUsuario:String = "Perfil"
+    @State private var nombreUsuario:String = "Perfil"
     //@State var imagenPerfil:UIImage = UIImage(named: "ejemploFoto")!
-    @State var imagenPerfil: UIImage = UIImage(named: "ejemploFoto") ?? UIImage(systemName: "person.crop.circle")!
+    @State private var imagenPerfil: UIImage = UIImage(named: "ejemploFoto") ?? UIImage(systemName: "person.crop.circle")!
     
     
     var body: some View {
@@ -93,8 +93,8 @@ struct ProfileView: View {
 
 struct ModuloAjustes:View {
     
-    @State var isToggleOn = true
-    @State var isEditProfileViewActive = false
+    @State private var isToggleOn = true
+    @State private var isEditProfileViewActive = false
     
     var body: some View{
         

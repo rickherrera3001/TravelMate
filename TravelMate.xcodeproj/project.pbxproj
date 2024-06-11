@@ -34,6 +34,8 @@
 		D04AF2CF2C116AB800441A85 /* ItineraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AF2CE2C116AB800441A85 /* ItineraryViewModel.swift */; };
 		D04AF2D12C116AD100441A85 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AF2D02C116AD100441A85 /* CommunityView.swift */; };
 		D04AF2D32C116ADF00441A85 /* CommunityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04AF2D22C116ADF00441A85 /* CommunityViewModel.swift */; };
+		D0EEA5282C1761AB009FE0B5 /* TravelDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EEA5272C1761AB009FE0B5 /* TravelDetailView.swift */; };
+		D0EEA52A2C1761CD009FE0B5 /* TravelDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EEA5292C1761CD009FE0B5 /* TravelDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,8 @@
 		D04AF2CE2C116AB800441A85 /* ItineraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryViewModel.swift; sourceTree = "<group>"; };
 		D04AF2D02C116AD100441A85 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
 		D04AF2D22C116ADF00441A85 /* CommunityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewModel.swift; sourceTree = "<group>"; };
+		D0EEA5272C1761AB009FE0B5 /* TravelDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailView.swift; sourceTree = "<group>"; };
+		D0EEA5292C1761CD009FE0B5 /* TravelDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,8 @@
 				D0193FF52C0AF91100DB4066 /* ForgotView.swift */,
 				D03241052C0A74D00035C292 /* HomeView.swift */,
 				D03241072C0A74E30035C292 /* HomeViewModel.swift */,
+				D0EEA5272C1761AB009FE0B5 /* TravelDetailView.swift */,
+				D0EEA5292C1761CD009FE0B5 /* TravelDetailViewModel.swift */,
 				D015A2B92C0ED429009614E6 /* ProfileView.swift */,
 				D015A2BB2C0ED438009614E6 /* ProfileViewModel.swift */,
 				D04AF2C82C116A7B00441A85 /* PlanTripView.swift */,
@@ -249,8 +255,10 @@
 				D04AF2CF2C116AB800441A85 /* ItineraryViewModel.swift in Sources */,
 				D04AF2CB2C116A8A00441A85 /* PlanTripViewModel.swift in Sources */,
 				D03241022C0A6FF10035C292 /* RegisterView.swift in Sources */,
+				D0EEA52A2C1761CD009FE0B5 /* TravelDetailViewModel.swift in Sources */,
 				D03240E52C0A5E050035C292 /* TravelMateApp.swift in Sources */,
 				D03240FE2C0A6FA90035C292 /* LoginView.swift in Sources */,
+				D0EEA5282C1761AB009FE0B5 /* TravelDetailView.swift in Sources */,
 				D04AF2C92C116A7B00441A85 /* PlanTripView.swift in Sources */,
 				D0193FF42C0AF77E00DB4066 /* UserModel.swift in Sources */,
 				D03240FA2C0A6F2E0035C292 /* ApiClient.swift in Sources */,
